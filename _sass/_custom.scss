@@ -1,0 +1,153 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+@import
+"nav";
+
+/* custom css altijd onderaan */
+
+/* NAVIGATION BAR
+-------------------------------------------------- */
+
+.jumbotron{
+    background-image: url("https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg"); 
+    background-size:100%;
+}
+
+.header{ 
+    max-height: 400px;
+}
+.display-3{
+    color:white;
+}
+.logo{
+    margin-top: -25px;
+    width:300px;
+    height:auto;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: rgb(8, 11, 53); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.indexfoto{
+    width:100%;
+    margin-top: -100px;
+}
+.indexfoto3{
+    width:100%;
+    margin-top: -80px;
+}
+.index-titel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: -140px;
+}
+.index-text{
+    font-size: 10pt;
+    text-align: center;
+}
+.tarieven_titel{
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(19, 134, 151);
+}
+.tarieven-text{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reserveer{
+    font-size: 18pt;
+    color:rgb(19, 134, 151);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color:rgb(19, 134, 151);
+    border:none;
+    color:white;
+    margin-top: 50px;
+}
+.end{
+    padding-bottom: 150px;
+}
+
+footer {
+    height: 200px;
+    background-image: url("https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg"); 
+    background-size:100%;
+}
+.footer-text{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-top:10px;
+}
+.footer-text2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin-top:20px;
+}
+.footer2{
+    margin-top: 20px;
+}
+.fab{
+    margin-top: -50px;
+}
+.overons-foto{
+    width:300px;
+    height:auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.overons-text{
+    font-size: 11pt;
+    text-align: left;
+    margin-top: 40px;
+}
+.pagina-titel{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.item{
+    margin-bottom:50px;
+}
+.carousel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gallerij{
+    width: 100%;
+    height: auto;
+    margin:20px;
+}
+.card{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    align-content: center;
+    background-color: rgb(217, 222, 223);
+}
+.betalen{
+    margin-bottom: 40px;
+}
+.leeg{
+    background-color: white;
+}

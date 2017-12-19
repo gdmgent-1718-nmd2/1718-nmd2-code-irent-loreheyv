@@ -1,0 +1,31 @@
+---
+# Dit is Front Matter (YAML)
+layout: default
+permalink: zoekmachines/ 
+title: zoekmachines
+
+zoekmachines:
+  - 
+    href: https://google.com
+    label: Google
+  - 
+    href: https://bing.com
+    label: Bing
+  - 
+    href: https://duckduckgo.com
+    label: Duck Duck Go
+---
+
+<!-- {{ page.zoekmachines | inspect}} -->
+<!-- wat er na het rechtstaan streepje komt, is de filter, label wordt alfabetisch geplaatst -->
+{% assign zoekmachines = page.zoekmachines | sort: 'label' %}
+
+<ul>
+    {% for zoekmachine in zoekmachines %}
+    <li class="text-warning">
+        <a href="{{ zoekmachine.href }}" target="_blank" class="btn btn-primary">
+            {{ zoekmachine.label }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

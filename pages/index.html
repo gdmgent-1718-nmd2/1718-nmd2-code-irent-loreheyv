@@ -1,13 +1,53 @@
 ---
 layout   : default
-permalink: /
+permalink: index
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+title: 
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
+
 <div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
+  <div class="row"> <!-- rij 1 -->
+    <div class="col-12 col-md-4">
+      <a href="overons.html">
+        <img src="{{ site.baseurl }}/images/raket.png" class="indexfoto">
+      </a>
+      <p class="index-titel">Over ons</p>
+      <p class="index-text">Vind hier enkele informatie <br> 
+        over onze site en hoe het <br> allemaal in zijn werk gaat..</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <a href="tarieven.html">
+        <img src="images/menu.png" class="indexfoto">
+      </a>
+      <p class="index-titel">Tarieven</p>
+      <p class="index-text">Op deze webpagina vind u <br> de informatie
+        rondom <br> de tarieven en supplementen.</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <a href="reserveer.html">
+        <img src="images/reserveren.png" class="indexfoto3">
+      </a>
+      <p class="index-titel">Reserveren</p>
+      <p class="index-text">Reserveer hier voor de trip<br>  vanje leven
+        en kijk wat al<br>  de  mogelijkheden zijn!
+      </p>
+    </div>
+  </div>
+  <div class="row"> <!-- rij 2 -->
+    <div class="col-12">
+      <div class="card text-center">
+          <div class="card-header">
+            RAKETTRIP
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Reserveer hier</h4>
+            <p class="card-text">Al beslist met hoeveel personen je bent?<br> Als gekozen welke extra's je eventueel zal kiezen? <br>Wil je gewoon direct reserveren? Klik dan op deze button!<br></p>
+            <a href="reserveer.html" class="btn btn-primary">Reserveren</a>
+          </div>
+        </div>
+      </div>
+  </div>
 </div>
+
+
