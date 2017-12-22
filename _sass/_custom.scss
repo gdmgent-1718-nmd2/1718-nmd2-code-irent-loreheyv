@@ -89,7 +89,7 @@
 }
 
 footer {
-    height: 200px;
+    height: 150px;
     background-image: url("https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg"); 
     background-size:100%;
 }
@@ -104,6 +104,9 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
     margin-top:20px;
+}
+.voorwaarden{
+    margin-bottom: 50px;
 }
 .footer2{
     margin-top: 20px;
@@ -150,4 +153,21 @@ footer {
 }
 .leeg{
     background-color: white;
+}
+.footer-col3{
+    margin-top: -10px;
+}
+.vk{
+    margin:30px;
+    margin-left: 0px;
+}
+.gegevens{
+    margin:5px !important;
+    background-color: rgb(9, 21, 128);
+}
+.carousel-item{
+    width: 400px;
+}
+.carousel-control-next{
+    margin-right: 150px;
 }
