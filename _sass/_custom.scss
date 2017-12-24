@@ -46,11 +46,11 @@
 }
 .indexfoto{
     width:100%;
-    margin-top: -100px;
 }
 .indexfoto3{
     width:100%;
-    margin-top: -80px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 .index-titel{
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +61,7 @@
 .index-text{
     font-size: 10pt;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tarieven_titel{
     font-size: 18pt;
@@ -77,19 +78,21 @@
     color:rgb(19, 134, 151);
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .btn{
     background-color:rgb(19, 134, 151);
     border:none;
     color:white;
     margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .end{
     padding-bottom: 150px;
 }
 
 footer {
-    height: 150px;
+    height: 310px;
     background-image: url("https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg"); 
     background-size:100%;
 }
@@ -97,7 +100,6 @@ footer {
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    margin-top:10px;
 }
 .footer-text2{
     color:white;
@@ -111,6 +113,9 @@ footer {
 .footer2{
     margin-top: 20px;
 }
+.footer-col3{
+    margin-top: 2px;
+}
 .fab{
     margin-top: -50px;
 }
@@ -121,14 +126,24 @@ footer {
     margin-top: 50px;
     margin-left: 35px;
 }
+.werking{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    margin-top: -20pt;
+}
+.overons-text1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    margin-bottom: 80px;
+}
 .overons-text{
-    font-size: 11pt;
-    text-align: left;
-    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
 }
 .pagina-titel{
-    margin-top: 30px;
+    margin-top: 30pt;
     margin-bottom:30px;
+    font-size:40px;
 }
 .item{
     margin-bottom:50px;
@@ -147,6 +162,15 @@ footer {
     margin-bottom: 50px;
     align-content: center;
     background-color: rgb(217, 222, 223);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+}
+.card-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
 }
 .betalen{
     margin-bottom: 40px;
@@ -154,20 +178,22 @@ footer {
 .leeg{
     background-color: white;
 }
-.footer-col3{
-    margin-top: -10px;
-}
 .vk{
     margin:30px;
     margin-left: 0px;
 }
 .gegevens{
     margin:5px !important;
-    background-color: rgb(9, 21, 128);
+    background-color: rgb(19, 34, 56);
 }
 .carousel-item{
     width: 400px;
 }
 .carousel-control-next{
     margin-right: 150px;
+}
+.progress{
+    margin-bottom:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
 }
